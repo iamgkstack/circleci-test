@@ -1,0 +1,32 @@
+{
+  "name": "circleci-test",
+  "version": "1.0.0",
+  "description": "testing circleci build",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgkstack/circleci-test.git"
+  },
+  "keywords": [
+    "circleci",
+    "node",
+    "mocha"
+  ],
+  "author": "Gaurav Kumar <gauravkumar5295@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamgkstack/circleci-test/issues"
+  },
+  "homepage": "https://github.com/iamgkstack/circleci-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^6.2.1"
+  }
+}
